@@ -990,3 +990,17 @@ body {
   background-color: var(--primary);
   transition: width 0.3s ease;
 }
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+}
